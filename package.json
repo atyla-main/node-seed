@@ -1,12 +1,13 @@
 {
   "name": "node-seed",
-  "version": "1.0.0",
-  "main": "app.js",
+  "version": "0.0.1",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["atyla", "heroku", "test"],
+  "author": "atyla",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
