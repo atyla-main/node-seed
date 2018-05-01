@@ -1,0 +1,20 @@
+<% include partials/header %>
+
+<h1>Hello World :)</h1>
+<p><%= var1 %></p>
+<h2> View ICOs </h2>
+<p>
+	<ul>
+	<% icos.forEach((ico) => { %>
+		<li><%= ico.name %></li>
+	<% }) %>
+	</ul>
+</p>
+<h2> Add an ICOs </h2>
+<form method="POST" action="api/icos/">
+	<label>Name</label><br>
+	<input type="texte" name="name"><br><br>
+	<input type="submit" value ="Submit">
+</form>
+
+<% include partials/footer %>
